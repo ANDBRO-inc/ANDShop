@@ -294,14 +294,9 @@ $custom_posts = $count_custom->count;
 
   <!-- bread -->
   <div class="container">
-    <!-- <div class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
-      <?php if(function_exists('bcn_display'))
-    {
-        bcn_display();
-    }?>
-    </div> -->
-
     <div class="breadcrumb"><?php get_breadcrumb(); ?></div>
-
-
   </div>
+
+  <p>こん
+    
+  </p>
