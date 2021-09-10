@@ -467,16 +467,18 @@ function get_breadcrumb() {
 		// the_category (' • ');
 			if (is_woocommerce()) {
 				echo '  »  ';
-				echo '<a href="/shop" rel="nofollow">shop</a>';
+				echo '<a href="/shop" rel="nofollow">ショップ</a>';
 			}
 			if (get_post_type() === 'voice') {
+				echo '  »  ';
 				echo '<a href="/voice" rel="nofollow">ご利用事例</a>';
 			}
 			if (get_post_type() === 'post') {
 				echo '  »  ';
-				echo '<a href="/blog" rel="nofollow">WordPress Tips</a>';
+				echo '<a href="/blog" rel="nofollow">ブログ</a>';
 			}
 			if (get_post_type() === 'news') {
+				echo '  »  ';
 				echo '<a href="/news" rel="nofollow">お知らせ</a>';
 			}
 			if (is_single()) {
