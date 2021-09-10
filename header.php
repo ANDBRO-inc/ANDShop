@@ -292,11 +292,4 @@ $custom_posts = $count_custom->count;
 
   </header>
 
-  <!-- bread -->
-  <div class="container">
-    <div class="breadcrumb"><?php get_breadcrumb(); ?></div>
-  </div>
-
-  <p>こん
-    
-  </p>
+<?php get_template_part( 'inc/bread' ); ?>
