@@ -46,7 +46,7 @@
       </ol>
     </div>
 
-    <p class="home-News_More"><a href="/news">お知らせをもっと見る &gt;</a></p>
+    <p class="home-News_More"><a href="/new">お知らせをもっと見る &gt;</a></p>
     <!-- /.home-News -->
   </section>
 
@@ -117,7 +117,7 @@
 
 
     <div class="unit-LinkBox">
-      <a href="/voice/" class="unit-LinkBox_Link">利用事例をもっと見る</a>
+      <a href="/cases" class="unit-LinkBox_Link">利用事例をもっと見る</a>
     </div>
     <!-- /TechBlog -->
   </section>

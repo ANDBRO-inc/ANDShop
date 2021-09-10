@@ -471,7 +471,7 @@ function get_breadcrumb() {
 			}
 			if (get_post_type() === 'voice') {
 				echo '  »  ';
-				echo '<a href="/voice" rel="nofollow">ご利用事例</a>';
+				echo '<a href="/cases" rel="nofollow">ご利用者の声</a>';
 			}
 			if (get_post_type() === 'post') {
 				echo '  »  ';
@@ -479,7 +479,7 @@ function get_breadcrumb() {
 			}
 			if (get_post_type() === 'news') {
 				echo '  »  ';
-				echo '<a href="/news" rel="nofollow">お知らせ</a>';
+				echo '<a href="/new" rel="nofollow">お知らせ</a>';
 			}
 			if (is_single()) {
 				echo '  »  ';
