@@ -293,3 +293,5 @@ $custom_posts = $count_custom->count;
   </header>
 
 <?php get_template_part( 'inc/bread' ); ?>
+
+<p>マスター</p>
