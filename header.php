@@ -295,3 +295,4 @@ $custom_posts = $count_custom->count;
 <?php get_template_part( 'inc/bread' ); ?>
 
 <p>マスター</p>
+<p>マージ</p>
