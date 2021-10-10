@@ -1,10 +1,11 @@
-<?php get_header();?>
+<?php get_header(); ?>
 
 <div id="primary" class="content-area primary">
 
   <main id="main" class="site-main container">
 
-    <article class="post-572 page type-page status-publish ast-article-single" itemtype="https://schema.org/CreativeWork" itemscope="itemscope" id="post-572">
+    <article class="post-572 page type-page status-publish ast-article-single"
+      itemtype="https://schema.org/CreativeWork" itemscope="itemscope" id="post-572">
 
       <header class="entry-header ast-no-thumbnail ast-no-meta">
 
@@ -37,7 +38,7 @@
           <li>商品詳細の画面で「カートに入れる」ボタンをクリックすると、商品がカートに入り「カート」ページに移動します。</li>
           <li>引き続き商品を追加する場合は、「買い物を続ける」をクリックします。</li>
           <li>「カート」では、お客様が現在ショッピングカートに入れられている商品が一覧で表示されます。</li>
-          <li>ユーザー登録されている方はログインを、そのほかの方は請求先情報の詳細にご入力をお願いいたします。（<a href="https://communitycom-shop.jp/faq_categories/purchase/">購入時のよくあるご質問</a>）</li>
+          <li>ユーザー登録されている方はログインを、そのほかの方は請求先情報の詳細にご入力をお願いいたします。（<a href="/buyfaq">購入時のよくあるご質問</a>）</li>
           <li>クーポンコードをお持ちの方は「クーポン」欄に入力し、「クーポンを適用」をクリックします。合計金額にてクーポンが適用されているかご確認ください。</li>
         </ol>
 
@@ -54,18 +55,22 @@
           <li>銀行振込</li>
         </ul>
 
-        <figure class="wp-block-image"><img src="https://wp.and-bro.com/wp-content/uploads/2021/08/img_cardbrand.png" alt="対応カードブランド：MasterCard/Visa/JCB/AMEX" width="480" height="100"></figure>
+        <figure class="wp-block-image"><img src="https://wp.and-bro.com/wp-content/uploads/2021/08/img_cardbrand.png"
+            alt="対応カードブランド：MasterCard/Visa/JCB/AMEX" width="480" height="100"></figure>
 
         <figure class="wp-block-table">
           <table>
             <tbody>
               <tr>
                 <td>クレジットカード払い</td>
-                <td>オンライン決済システム「<a href="https://stripe.com/jp">Stripe</a>」での決済となります。<br>クレジットカードに関する情報は Stripe で厳重に管理され、当ショップではお客様のクレジットカード情報を把握することはございません。キャンセル・払い戻し手続きのみ対応しております。</td>
+                <td>オンライン決済システム「<a href="https://stripe.com/jp">Stripe</a>」での決済となります。<br>クレジットカードに関する情報は Stripe
+                  で厳重に管理され、当ショップではお客様のクレジットカード情報を把握することはございません。キャンセル・払い戻し手続きのみ対応しております。</td>
               </tr>
               <tr>
                 <td>銀行振込<br>（日本国内）</td>
-                <td>お振込先は注文受付のメールに記載しております。<br>振込手数料はお客様負担でお願いいたします。（<a href="#section3-2">お振込時のお願い</a>）<br>ご入金確認後、商品のダウンロード許可手続きまたは発送のお手続きを行います。着金が土曜・日曜・祝日となる場合、ご入金確認は翌営業日となります。<br>10日以内にご入金が確認できない場合は、キャンセルとさせていただきます。 </td>
+                <td>お振込先は注文受付のメールに記載しております。<br>振込手数料はお客様負担でお願いいたします。（<a
+                    href="#section3-2">お振込時のお願い</a>）<br>ご入金確認後、商品のダウンロード許可手続きまたは発送のお手続きを行います。着金が土曜・日曜・祝日となる場合、ご入金確認は翌営業日となります。<br>10日以内にご入金が確認できない場合は、キャンセルとさせていただきます。
+                </td>
               </tr>
             </tbody>
           </table>
@@ -102,12 +107,16 @@
             <li class="wc-block-grid__product">
               <a href="/shop/support/support-b2c" class="wc-block-grid__product-link">
                 <div class="wc-block-grid__product-image">
-                  <img width="700" height="467" src="https://wp.and-bro.com/wp-content/uploads/2021/08/2-2.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy">
+                  <img width="700" height="467" src="https://wp.and-bro.com/wp-content/uploads/2021/08/2-2.png"
+                    class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy">
                 </div>
                 <div class="wc-block-grid__product-title">月額制サポートサービス（個人）</div>
               </a>
 
-              <div class="wc-block-grid__product-price price">定額費用 <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">¥</span>2,200</span> <small class="woocommerce-price-suffix">(税込)</small> <span class="subscription-details"> / 1ヶ月<span>（1か月無料）</span></span></div>
+              <div class="wc-block-grid__product-price price">定額費用 <span class="woocommerce-Price-amount amount"><span
+                    class="woocommerce-Price-currencySymbol">¥</span>2,200</span> <small
+                  class="woocommerce-price-suffix">(税込)</small> <span class="subscription-details"> /
+                  1ヶ月<span>（1か月無料）</span></span></div>
 
             </li>
             <input type="hidden" class="wooptpmProductId" data-id="13927">
@@ -133,12 +142,16 @@
             <li class="wc-block-grid__product">
               <a href="/shop/support/support-b2b" class="wc-block-grid__product-link">
                 <div class="wc-block-grid__product-image">
-                  <img width="700" height="467" src="https://wp.and-bro.com/wp-content/uploads/2021/08/3-1.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy">
+                  <img width="700" height="467" src="https://wp.and-bro.com/wp-content/uploads/2021/08/3-1.png"
+                    class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy">
                 </div>
                 <div class="wc-block-grid__product-title">月額制サポートサービス（法人）</div>
               </a>
 
-              <div class="wc-block-grid__product-price price">定額費用 <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">¥</span>11,000</span> <small class="woocommerce-price-suffix">(税込)</small> <span class="subscription-details"> / 1ヶ月<span>（1か月無料）</span></span></div>
+              <div class="wc-block-grid__product-price price">定額費用 <span class="woocommerce-Price-amount amount"><span
+                    class="woocommerce-Price-currencySymbol">¥</span>11,000</span> <small
+                  class="woocommerce-price-suffix">(税込)</small> <span class="subscription-details"> /
+                  1ヶ月<span>（1か月無料）</span></span></div>
 
 
             </li>
@@ -173,4 +186,4 @@
 
 </div>
 
-<?php get_footer();?>
+<?php get_footer(); ?>

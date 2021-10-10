@@ -4,9 +4,10 @@
   <main id="main" class="site-main">
     <div class="ast-woocommerce-container container">
 
-      <div id="product-1319" class="ast-article-single ast-woo-product-no-review product type-product post-1319 status-publish first instock product_cat-theme-ownedmedia product_cat-theme has-post-thumbnail featured downloadable virtual sold-individually taxable purchasable product-type-simple">
+      <div id="product-1319"
+        class="ast-article-single ast-woo-product-no-review product type-product post-1319 status-publish first instock product_cat-theme-ownedmedia product_cat-theme has-post-thumbnail featured downloadable virtual sold-individually taxable purchasable product-type-simple">
 
-        <?php if(have_posts()):the_post(); ?>
+        <?php if (have_posts()) : the_post(); ?>
         <?php echo the_post_thumbnail(); ?>
         <h1 class="post-title aligncenter"><?php the_title(); ?></h1>
         <?php the_content(); ?>
@@ -22,25 +23,31 @@
             </li>
           </ul> -->
 
-          <div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--description panel entry-content " id="tab-description" role="tabpanel" aria-labelledby="tab-title-description">
+          <div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--description panel entry-content "
+            id="tab-description" role="tabpanel" aria-labelledby="tab-title-description">
 
-            <div class="row mb-5 justify-content-center">
+            <div class="row mb-5 justify-content-center first-img">
               <div class="col-md-6">
                 <a href="/voice">
-                  <img src="https://wp.and-bro.com/wp-content/uploads/2021/08/お客様の声-2.png" alt="採用して正解だった！ご利用事例集 ANDShopのWordPressテーマユーザーに聞きました！" width="630" height="204" class="alignnone size-full wp-image-17116" sizes="(max-width: 718px) 100vw, 718px">
+                  <img src="https://wp.and-bro.com/wp-content/uploads/2021/08/お客様の声-2.png"
+                    alt="採用して正解だった！ご利用事例集 ANDShopのWordPressテーマユーザーに聞きました！" width="630" height="204"
+                    class="alignnone size-full wp-image-17116" sizes="(max-width: 718px) 100vw, 718px">
                 </a>
               </div>
             </div>
 
             <!-- 画像 -->
-            <img loading="lazy" src="<?php the_field('shop_img');?>" width="1280" height="630" style="margin-bottom: 1.5em;">
+            <img class="first-img" loading="lazy" src="<?php the_field('shop_img'); ?>" width="1280" height="630"
+              style="margin-bottom: 1.5em;">
             <!-- 説明 -->
             <p><?php the_field('shop_text'); ?></p>
 
 
             <ul class="unit-ProductBtns">
-              <li class="unit-ProductBtns_Item"><a href="<?php the_field('demosite'); ?>" target="_blank" rel="noopener noreferrer">動作デモ</a></li>
-              <li class="unit-ProductBtns_Item"><a href="<?php the_field('manual'); ?>" target="_blank" rel="noopener noreferrer">機能詳細＆設定マニュアル</a></li>
+              <li class="unit-ProductBtns_Item"><a href="<?php the_field('demosite'); ?>" target="_blank"
+                  rel="noopener noreferrer">動作デモ</a></li>
+              <li class="unit-ProductBtns_Item"><a href="<?php the_field('manual'); ?>" target="_blank"
+                  rel="noopener noreferrer">機能詳細＆設定マニュアル</a></li>
             </ul>
 
             <!-- パターンオーダー -->
@@ -48,7 +55,7 @@
               <div class="unit-ProductFeat">
                 <h2 class="unit-ProductFeat_Title">WordPressでのホームページ制作を、プロにお任せ</h2>
                 <p class="unit-ProductFeat_Desc">ANDShopのまるごとおまかせパックは、めんどうな初期設定をあなたに代わってプロの制作チームが行います。<br>
-安く・簡単に始めたいなら、まるごとおまかせパックにおまかせください！</p>
+                  安く・簡単に始めたいなら、まるごとおまかせパックにおまかせください！</p>
                 <div class="container-fluid">
                   <div class="row">
                     <section class="col-sm-12 unit-ProductFeatItem">
@@ -78,7 +85,8 @@
                         <li>通常の銀行振込（前払い）</li>
                         <li><a href="https://paid.jp/v/contents/pre/buyer/">Paid</a>（株式会社ラクーンフィナンシャル）の分割払い</li>
                       </ol>
-                      <p>Paidでのお支払いをご希望の方は<strong>決済画面で銀行振込を選択し、備考欄に「分割払い希望」と入力</strong>してください。追って弊社からご案内のメールをお送りいたします。</p>
+                      <p>Paidでのお支払いをご希望の方は<strong>決済画面で銀行振込を選択し、備考欄に「分割払い希望」と入力</strong>してください。追って弊社からご案内のメールをお送りいたします。
+                      </p>
                       <p>※「Paid」のご利用には審査がございます。審査によってはご利用いただけない場合もございますので、あらかじめご了承ください。</p>
                       <h4>ドメイン・サーバーについて</h4>
                       <p>お客様でご用意をお願いいたします</p>
@@ -128,17 +136,17 @@
                     <section class="col-sm-12 unit-ProductFeatItem">
                       <h3 class="unit-ProductFeatItem_Title">STEP2：デザイン制作・ライティング</h3>
                       <p>パックに含まれるメインビジュアルやタイトルロゴなどの制作、配色設定などを弊社デザイナーが行います。<br>
-修正は2回まで承ります。</p>
+                        修正は2回まで承ります。</p>
                     </section>
                     <section class="col-sm-12 unit-ProductFeatItem">
                       <h3 class="unit-ProductFeatItem_Title">STEP3：サイト制作</h3>
                       <p>お客様の原稿を元に、サイト制作作業を行います。<br>
-修正は2回まで承ります。</p>
+                        修正は2回まで承ります。</p>
                     </section>
                     <section class="col-sm-12 unit-ProductFeatItem">
                       <h3 class="unit-ProductFeatItem_Title">STEP4：納品</h3>
                       <p>サイト制作が完了しましたら公開いたします。<br>
-その後、WordPressのアカウント／パスワードお渡しすることで納品完了となります。</p>
+                        その後、WordPressのアカウント／パスワードお渡しすることで納品完了となります。</p>
                     </section>
                   </div>
                 </div>
@@ -147,7 +155,8 @@
 
             <!-- 月額制サポート -->
             <div class="shop-support product product_cat-support woocommerce-tabs wc-tabs-wrapper">
-              <div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--description panel entry-content" id="tab-description" role="tabpanel" aria-labelledby="tab-title-description">
+              <div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--description panel entry-content"
+                id="tab-description" role="tabpanel" aria-labelledby="tab-title-description">
 
 
                 <h2>月額制サポートサービス（法人）内容</h2>
@@ -234,198 +243,211 @@
               <div class="unit-ProductFeat">
                 <h2 class="unit-ProductFeat_Title">カンタン、だけど高機能</h2>
                 <p class="unit-ProductFeat_Desc">Communitycom のテーマは、「カンタン、だけど高機能」。<br>
-自分でオウンドメディアを作りたいけど、あまり時間も手間もかけられない方に、オウンドメディア運用に必要な機能をコンパクトにまとめました。<br>
-「機能が多すぎてよく分からない！」はありません。</p>
+                  自分でオウンドメディアを作りたいけど、あまり時間も手間もかけられない方に、オウンドメディア運用に必要な機能をコンパクトにまとめました。<br>
+                  「機能が多すぎてよく分からない！」はありません。</p>
 
                 <div class="container-fluid">
                   <div class="row">
 
                     <!-- s1 -->
                     <?php
-                  $ss1 = 'shop_title1';
-                  $s1 = get_post_meta(get_the_ID(), $s1, true);
-                  ?>
+                    $ss1 = 'shop_title1';
+                    $s1 = get_post_meta(get_the_ID(), $s1, true);
+                    ?>
 
-                    <?php if ($s1  == ""): ?>
+                    <?php if ($s1  == "") : ?>
                     <section style="display:none;"></section>
 
-                    <?php else: ?>
+                    <?php else : ?>
                     <section class="col-sm-6 unit-ProductFeatItem">
                       <h3 class="unit-ProductFeatItem_Title"><?php the_field('shop_title1'); ?></h3>
-                      <figure class="unit-ProductFeatItem_Img"><img loading="lazy" src="<?php the_field('shop_img1'); ?>" alt="" width="" height="380"></figure>
+                      <figure class="unit-ProductFeatItem_Img"><img loading="lazy"
+                          src="<?php the_field('shop_img1'); ?>" alt="" width="" height="380"></figure>
                       <p><?php the_field('shop_text1'); ?></p>
                     </section>
                     <?php endif; ?>
 
                     <!-- s2 -->
                     <?php
-                  $ss2 = 'shop_title2';
-                  $s2 = get_post_meta(get_the_ID(), $s1, true);
-                  ?>
-                    <?php if ($s2  == ""): ?>
+                    $ss2 = 'shop_title2';
+                    $s2 = get_post_meta(get_the_ID(), $s1, true);
+                    ?>
+                    <?php if ($s2  == "") : ?>
                     <section style="display:none;"></section>
 
-                    <?php else:?>
+                    <?php else : ?>
                     <section class="col-sm-6 unit-ProductFeatItem">
                       <h3 class="unit-ProductFeatItem_Title"><?php the_field('shop_title2'); ?></h3>
-                      <figure class="unit-ProductFeatItem_Img"><img loading="lazy" src="<?php the_field('shop_img2'); ?>" alt="" width="608" height="380"></figure>
+                      <figure class="unit-ProductFeatItem_Img"><img loading="lazy"
+                          src="<?php the_field('shop_img2'); ?>" alt="" width="608" height="380"></figure>
                       <p><?php the_field('shop_text2'); ?></p>
                     </section>
-                    <?php endif ;?>
+                    <?php endif; ?>
 
                     <!-- s3 -->
                     <?php
-                  $ss3 = 'shop_title3';
-                  $s3 = get_post_meta(get_the_ID(), $s1, true);
-                  ?>
-                    <?php if ($s3  == ""): ?>
+                    $ss3 = 'shop_title3';
+                    $s3 = get_post_meta(get_the_ID(), $s1, true);
+                    ?>
+                    <?php if ($s3  == "") : ?>
                     <section style="display:none;"></section>
 
-                    <?php else: ?>
+                    <?php else : ?>
                     <section class="col-sm-6 unit-ProductFeatItem">
                       <h3 class="unit-ProductFeatItem_Title"><?php the_field('shop_title3'); ?></h3>
-                      <figure class="unit-ProductFeatItem_Img"><img loading="lazy" src="<?php the_field('shop_img3'); ?>" alt="" width="608" height="380"></figure>
+                      <figure class="unit-ProductFeatItem_Img"><img loading="lazy"
+                          src="<?php the_field('shop_img3'); ?>" alt="" width="608" height="380"></figure>
                       <p><?php the_field('shop_text3'); ?></p>
                     </section>
-                    <?php endif;?>
+                    <?php endif; ?>
 
                     <!-- s4 -->
                     <?php
-                  $ss4 = 'shop_title4';
-                  $s4 = get_post_meta(get_the_ID(), $s1, true);
-                  ?>
-                    <?php if ($s4  == ""): ?>
+                    $ss4 = 'shop_title4';
+                    $s4 = get_post_meta(get_the_ID(), $s1, true);
+                    ?>
+                    <?php if ($s4  == "") : ?>
                     <section style="display:none;"></section>
 
-                    <?php else:?>
+                    <?php else : ?>
                     <section class="col-sm-6 unit-ProductFeatItem">
                       <h3 class="unit-ProductFeatItem_Title"><?php the_field('shop_title4'); ?></h3>
-                      <figure class="unit-ProductFeatItem_Img"><img loading="lazy" src="<?php the_field('shop_img4'); ?>" alt="" width="608" height="380"></figure>
+                      <figure class="unit-ProductFeatItem_Img"><img loading="lazy"
+                          src="<?php the_field('shop_img4'); ?>" alt="" width="608" height="380"></figure>
                       <p><?php the_field('shop_text4'); ?></p>
                     </section>
-                    <?php endif;?>
+                    <?php endif; ?>
 
                     <!-- s5 -->
                     <?php
-                  $ss5 = 'shop_title5';
-                  $s5 = get_post_meta(get_the_ID(), $s1, true);
-                  ?>
-                    <?php if ($s5  == ""): ?>
+                    $ss5 = 'shop_title5';
+                    $s5 = get_post_meta(get_the_ID(), $s1, true);
+                    ?>
+                    <?php if ($s5  == "") : ?>
                     <section style="display:none;"></section>
 
-                    <?php else:?>
+                    <?php else : ?>
                     <section class="col-sm-6 unit-ProductFeatItem">
                       <h3 class="unit-ProductFeatItem_Title"><?php the_field('shop_title5'); ?></h3>
-                      <figure class="unit-ProductFeatItem_Img"><img loading="lazy" src="<?php the_field('shop_img5'); ?>" alt="" width="608" height="380"></figure>
+                      <figure class="unit-ProductFeatItem_Img"><img loading="lazy"
+                          src="<?php the_field('shop_img5'); ?>" alt="" width="608" height="380"></figure>
                       <p><?php the_field('shop_text5'); ?></p>
                     </section>
-                    <?php endif;?>
+                    <?php endif; ?>
 
                     <!-- s6 -->
                     <?php
-                  $ss6 = 'shop_title6';
-                  $s6 = get_post_meta(get_the_ID(), $s1, true);
-                  ?>
-                    <?php if ($s6  == ""): ?>
+                    $ss6 = 'shop_title6';
+                    $s6 = get_post_meta(get_the_ID(), $s1, true);
+                    ?>
+                    <?php if ($s6  == "") : ?>
                     <section style="display:none;"></section>
 
-                    <?php else:?>
+                    <?php else : ?>
                     <section class="col-sm-6 unit-ProductFeatItem">
                       <h3 class="unit-ProductFeatItem_Title"><?php the_field('shop_title6'); ?></h3>
-                      <figure class="unit-ProductFeatItem_Img"><img loading="lazy" src="<?php the_field('shop_img6'); ?>" alt="" width="608" height="380"></figure>
+                      <figure class="unit-ProductFeatItem_Img"><img loading="lazy"
+                          src="<?php the_field('shop_img6'); ?>" alt="" width="608" height="380"></figure>
                       <p><?php the_field('shop_text6'); ?></p>
                     </section>
-                    <?php endif;?>
+                    <?php endif; ?>
 
                     <!-- s7 -->
                     <?php
-                  $ss7 = 'shop_title7';
-                  $s7 = get_post_meta(get_the_ID(), $s1, true);
-                  ?>
-                    <?php if ($s7  == ""): ?>
+                    $ss7 = 'shop_title7';
+                    $s7 = get_post_meta(get_the_ID(), $s1, true);
+                    ?>
+                    <?php if ($s7  == "") : ?>
                     <section style="display:none;"></section>
 
-                    <?php else:?>
+                    <?php else : ?>
                     <section class="col-sm-7 unit-ProductFeatItem">
                       <h3 class="unit-ProductFeatItem_Title"><?php the_field('shop_title7'); ?></h3>
-                      <figure class="unit-ProductFeatItem_Img"><img loading="lazy" src="<?php the_field('shop_img7'); ?>" alt="" width="608" height="380"></figure>
+                      <figure class="unit-ProductFeatItem_Img"><img loading="lazy"
+                          src="<?php the_field('shop_img7'); ?>" alt="" width="608" height="380"></figure>
                       <p><?php the_field('shop_text7'); ?></p>
                     </section>
-                    <?php endif;?>
+                    <?php endif; ?>
 
                     <!-- s8 -->
                     <?php
-                  $ss8 = 'shop_title8';
-                  $s8 = get_post_meta(get_the_ID(), $s1, true);
-                  ?>
-                    <?php if ($s8  == ""): ?>
+                    $ss8 = 'shop_title8';
+                    $s8 = get_post_meta(get_the_ID(), $s1, true);
+                    ?>
+                    <?php if ($s8  == "") : ?>
                     <section style="display:none;"></section>
 
-                    <?php else:?>
+                    <?php else : ?>
                     <section class="col-sm-8 unit-ProductFeatItem">
                       <h3 class="unit-ProductFeatItem_Title"><?php the_field('shop_title8'); ?></h3>
-                      <figure class="unit-ProductFeatItem_Img"><img loading="lazy" src="<?php the_field('shop_img8'); ?>" alt="" width="608" height="380"></figure>
+                      <figure class="unit-ProductFeatItem_Img"><img loading="lazy"
+                          src="<?php the_field('shop_img8'); ?>" alt="" width="608" height="380"></figure>
                       <p><?php the_field('shop_text8'); ?></p>
                     </section>
-                    <?php endif;?>
+                    <?php endif; ?>
 
                     <!-- s9 -->
                     <?php
-                  $ss9 = 'shop_title9';
-                  $s9 = get_post_meta(get_the_ID(), $s1, true);
-                  ?>
-                    <?php if ($s9  == ""): ?>
+                    $ss9 = 'shop_title9';
+                    $s9 = get_post_meta(get_the_ID(), $s1, true);
+                    ?>
+                    <?php if ($s9  == "") : ?>
                     <section style="display:none;"></section>
 
-                    <?php else:?>
+                    <?php else : ?>
                     <section class="col-sm-9 unit-ProductFeatItem">
                       <h3 class="unit-ProductFeatItem_Title"><?php the_field('shop_title9'); ?></h3>
-                      <figure class="unit-ProductFeatItem_Img"><img loading="lazy" src="<?php the_field('shop_img9'); ?>" alt="" width="608" height="380"></figure>
+                      <figure class="unit-ProductFeatItem_Img"><img loading="lazy"
+                          src="<?php the_field('shop_img9'); ?>" alt="" width="608" height="380"></figure>
                       <p><?php the_field('shop_text9'); ?></p>
                     </section>
-                    <?php endif;?>
+                    <?php endif; ?>
 
                     <!-- s10 -->
                     <?php
-                  $ss10 = 'shop_title10';
-                  $s10 = get_post_meta(get_the_ID(), $s1, true);
-                  ?>
-                    <?php if ($s10  == ""): ?>
+                    $ss10 = 'shop_title10';
+                    $s10 = get_post_meta(get_the_ID(), $s1, true);
+                    ?>
+                    <?php if ($s10  == "") : ?>
                     <section style="display:none;"></section>
 
-                    <?php else:?>
+                    <?php else : ?>
                     <section class="col-sm-10 unit-ProductFeatItem">
                       <h3 class="unit-ProductFeatItem_Title"><?php the_field('shop_title10'); ?></h3>
-                      <figure class="unit-ProductFeatItem_Img"><img loading="lazy" src="<?php the_field('shop_img10'); ?>" alt="" width="608" height="380"></figure>
+                      <figure class="unit-ProductFeatItem_Img"><img loading="lazy"
+                          src="<?php the_field('shop_img10'); ?>" alt="" width="608" height="380"></figure>
                       <p><?php the_field('shop_text10'); ?></p>
                     </section>
-                    <?php endif;?>
+                    <?php endif; ?>
 
                     <!-- s11 -->
                     <?php
-                  $ss11 = 'shop_title11';
-                  $s11 = get_post_meta(get_the_ID(), $s1, true);
-                  ?>
-                    <?php if ($s11  == ""): ?>
+                    $ss11 = 'shop_title11';
+                    $s11 = get_post_meta(get_the_ID(), $s1, true);
+                    ?>
+                    <?php if ($s11  == "") : ?>
                     <section style="display:none;"></section>
 
-                    <?php else:?>
+                    <?php else : ?>
                     <section class="col-sm-11 unit-ProductFeatItem">
                       <h3 class="unit-ProductFeatItem_Title"><?php the_field('shop_title11'); ?></h3>
-                      <figure class="unit-ProductFeatItem_Img"><img loading="lazy" src="<?php the_field('shop_img11'); ?>" alt="" width="608" height="380"></figure>
+                      <figure class="unit-ProductFeatItem_Img"><img loading="lazy"
+                          src="<?php the_field('shop_img11'); ?>" alt="" width="608" height="380"></figure>
                       <p><?php the_field('shop_text11'); ?></p>
                     </section>
-                    <?php endif;?>
+                    <?php endif; ?>
 
                     <section class="col-sm-6 unit-ProductFeatItem">
                       <h3 class="unit-ProductFeatItem_Title">月額制サポートサービスが1ヵ月間無料！</h3>
                       <figure class="unit-ProductFeatItem_Img">
-                        <img loading="lazy" src="https://wp.and-bro.com/wp-content/uploads/2021/08/fig_monthly-support.jpg" width="800" height="500" class="alignnone size-full wp-image-15899"><br>
+                        <img loading="lazy"
+                          src="https://wp.and-bro.com/wp-content/uploads/2021/08/fig_monthly-support.jpg" width="800"
+                          height="500" class="alignnone size-full wp-image-15899"><br>
                       </figure>
                       <p>ご購入後、サポートが必要な場合は、お申し込みから1ヵ月間無料の月額制サポートサービスをご利用ください。<br>
-サポートが不要になったらいつでも解約でき、有料テーマ・プラグインお買い上げ後でもお申し込みいただけます。</p>
+                        サポートが不要になったらいつでも解約でき、有料テーマ・プラグインお買い上げ後でもお申し込みいただけます。</p>
                       <p>詳しくは<a href="/monthly-support/">月額制サポートサービス</a>をご覧ください。<br>
-</p>
+                      </p>
 
                     </section>
                   </div>
@@ -504,7 +526,8 @@
               <ul id="product-notes">
                 <li><small>デモサイトはあくまでホームページの完成イメージです。当テーマのインストールだけではデモサイトは作成できません。</small></li>
                 <li><small>ホームページに使用する文章や画像はお客様ご自身でご用意ください。</small></li>
-                <li><small>WordPress テーマ by Communitycom の<a href="https://communitycom-shop.jp/shop_faq/paid-themes-0001/">動作推奨環境</a>を事前にご確認ください。</small></li>
+                <li><small>WordPress テーマ by Communitycom の<a
+                      href="https://communitycom-shop.jp/shop_faq/paid-themes-0001/">動作推奨環境</a>を事前にご確認ください。</small></li>
               </ul>
 
               <!-- <h2 class="unit-ProductFeat_Title">テーマ機能一覧</h2>
@@ -575,8 +598,10 @@
             </table> -->
 
               <ul class="unit-ProductBtns">
-                <li class="unit-ProductBtns_Item"><a href="<?php the_field('demosite'); ?>" target="_blank" rel="noopener noreferrer">動作デモ</a></li>
-                <li class="unit-ProductBtns_Item"><a href="<?php the_field('manual'); ?>" target="_blank" rel="noopener noreferrer">機能詳細＆設定マニュアル</a></li>
+                <li class="unit-ProductBtns_Item"><a href="<?php the_field('demosite'); ?>" target="_blank"
+                    rel="noopener noreferrer">動作デモ</a></li>
+                <li class="unit-ProductBtns_Item"><a href="<?php the_field('manual'); ?>" target="_blank"
+                    rel="noopener noreferrer">機能詳細＆設定マニュアル</a></li>
               </ul>
 
               <!-- defalut -->

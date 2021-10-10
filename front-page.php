@@ -5,10 +5,10 @@
   <div class="home-Hero breakout">
     <div class="home-Hero_Desc">
       <p class="home-Hero_Lead">
-            <span>ホームページ作りをもっと身近に・簡単に</span><br>
-            <span>WordPress書籍執筆チームによる</span><br>
-            <span>デザイン・機能両立のWordPressテーマ</span><br>
-        </p>
+        <span>ホームページ作りをもっと身近に・簡単に</span><br>
+        <span>WordPress書籍執筆チームによる</span><br>
+        <span>デザイン・機能両立のWordPressテーマ</span><br>
+      </p>
 
       <div class="home-Hero_Text">
         <p>ANDShopは、ホームページ制作の経験が浅い方の“つまづきやすさ”を検証して生まれた“業種や目的に特化”したWordPressテーマです。</p>
@@ -22,15 +22,16 @@
     <h2 class="sr-only">お知らせ</h2>
 
     <?php $args = [
-    'post_type' => 'news',
-    'posts_per_page' => 3, // 表示する数
-  ];
-  $my_query = new WP_Query($args); ?>
+      'post_type' => 'news',
+      'posts_per_page' => 3, // 表示する数
+    ];
+    $my_query = new WP_Query($args); ?>
 
     <div class="blog-wrap">
       <ol class="home-NewsItems row">
 
-        <?php if($my_query->have_posts()): while($my_query->have_posts()): $my_query->the_post(); ?> <li class="home-NewsItem col-lg-4">
+        <?php if ($my_query->have_posts()) : while ($my_query->have_posts()) : $my_query->the_post(); ?> <li
+          class="home-NewsItem col-lg-4">
 
           <a href="<?php the_permalink(); ?>" class="home-NewsItem_Link">
             <div class="home-NewsItem_Img"><?php the_post_thumbnail(); ?></div>
@@ -41,12 +42,13 @@
           </a>
         </li>
 
-        <?php endwhile; endif; ?>
+        <?php endwhile;
+        endif; ?>
 
       </ol>
     </div>
 
-    <p class="home-News_More"><a href="/new">お知らせをもっと見る &gt;</a></p>
+    <p class="home-News_More"><a href="/news">お知らせをもっと見る &gt;</a></p>
     <!-- /.home-News -->
   </section>
 
@@ -57,12 +59,17 @@
       <ul class="home-FeaturedItems row justify-content-start">
         <li class="home-FeaturedItem col-sm-6 col-md-4">
           <a href="https://wp.and-bro.com/shop/theme-corporate/cmctheme-corporate01" class="home-FeaturedItem_Link">
-            <img src="<?php bloginfo('template_url'); ?>/img/wp.and-bro 画像１.png" alt="WordPressテーマ by Communitycom 企業サイトシリーズ" class="img-responsive">コーポレートサイト向けテーマ<br>¥19,800<small class="woocommerce-price-suffix">(税込)</small>〜¥29,700<small class="woocommerce-price-suffix">(税込)</small>
+            <img src="<?php bloginfo('template_url'); ?>/img/wp.and-bro 画像１.png"
+              alt="WordPressテーマ by Communitycom 企業サイトシリーズ" class="img-responsive">コーポレートサイト向けテーマ<br>¥19,800<small
+              class="woocommerce-price-suffix">(税込)</small>〜¥29,700<small class="woocommerce-price-suffix">(税込)</small>
           </a>
         </li>
         <li class="home-FeaturedItem col-sm-6 col-md-4">
-          <a href="https://wp.and-bro.com/shop/cmctheme-blog-affiliate/cmctheme-blog-affiliate" class="home-FeaturedItem_Link">
-            <img src="<?php bloginfo('template_url'); ?>/img/wp.and-bro 画像１.png" alt="WordPressテーマ by Communitycom ブロガー・アフィリエイターシリーズ" class="img-responsive">ブログ・アフィリエイトサイト向けテーマ<br>¥19,800<small class="woocommerce-price-suffix">(税込)</small>
+          <a href="https://wp.and-bro.com/shop/cmctheme-blog-affiliate/cmctheme-blog-affiliate"
+            class="home-FeaturedItem_Link">
+            <img src="<?php bloginfo('template_url'); ?>/img/wp.and-bro 画像１.png"
+              alt="WordPressテーマ by Communitycom ブロガー・アフィリエイターシリーズ"
+              class="img-responsive">ブログ・アフィリエイトサイト向けテーマ<br>¥19,800<small class="woocommerce-price-suffix">(税込)</small>
           </a>
         </li>
       </ul>
@@ -84,15 +91,15 @@
 
     <!-- カスタム投稿タイプを呼び出し -->
     <?php $args = [
-    'post_type' => 'voice', // カスタム投稿名が「gourmet」の場合
-    'posts_per_page' => 3, // 表示する数
-  ];
-  $my_query = new WP_Query($args); ?>
+      'post_type' => 'voice', // カスタム投稿名が「gourmet」の場合
+      'posts_per_page' => 3, // 表示する数
+    ];
+    $my_query = new WP_Query($args); ?>
     <!-- カテゴリ -->
 
     <div class="blog-wrap">
       <div class="home-NewsItems row">
-        <?php if($my_query->have_posts()): while($my_query->have_posts()): $my_query->the_post(); ?>
+        <?php if ($my_query->have_posts()) : while ($my_query->have_posts()) : $my_query->the_post(); ?>
 
         <article class="home-CasesItem col-md-4">
           <a href="<?php the_permalink(); ?>" class="home-CasesItem_Link">
@@ -101,7 +108,7 @@
             </div>
             <div class="home-CasesItem_Inner">
               <ul class="home-CasesItem_Tags">
-                <li class="home-CasesItem_Tag"><?php the_field('voice_cat');?>
+                <li class="home-CasesItem_Tag"><?php the_field('voice_cat'); ?>
                 </li>
               </ul>
               <h3 class="home-CasesItem_Title"><?php the_title(); ?></h3>
@@ -111,7 +118,8 @@
           <!-- /Entry -->
         </article>
 
-        <?php endwhile; endif; ?>
+        <?php endwhile;
+        endif; ?>
       </div>
     </div>
 
@@ -131,13 +139,23 @@
           <li>初心者に<br>やさしい</li>
           <li>充実の<br>サポート体制</li>
         </ol>
-        <p>世界中で利用されている<ruby>WordPress<rp>(</rp><rt>ワードプレス</rt><rp>)</rp></ruby> では、機能もデザインもさまざまなテーマが何千、何万と存在するなかで、私たちの「<ruby>WordPress<rp>(</rp><rt>ワードプレス</rt><rp>)</rp></ruby>テーマ by <ruby>ANDShop<rp>(</rp><rt>アンドショップ</rt><rp>)</rp></ruby> は、業種や機能に特化した“初心者にやさしい”をコンセプトとしたテーマです。</p>
+        <p>世界中で利用されている<ruby>WordPress<rp>(</rp>
+            <rt>ワードプレス</rt>
+            <rp>)</rp>
+          </ruby> では、機能もデザインもさまざまなテーマが何千、何万と存在するなかで、私たちの「<ruby>WordPress<rp>(</rp>
+            <rt>ワードプレス</rt>
+            <rp>)</rp>
+          </ruby>テーマ by <ruby>ANDShop<rp>(</rp>
+            <rt>アンドショップ</rt>
+            <rp>)</rp>
+          </ruby> は、業種や機能に特化した“初心者にやさしい”をコンセプトとしたテーマです。</p>
         <p>数多くのWordPress書籍を執筆した制作陣が日々のテーマ開発から得た、「WordPress でのホームページ作りをもっと身近に、もっと簡単に」という想いが込められています。
-            </p>
-        <p>当ショップのテーマ＆プラグインは、充実した導入マニュアルをご用意しているほか、1ヵ月無料の月額制サポートサービスでホームページが完成するまでをサポート。<br>また、WordPress でのホームページを作るための学習ツールやサポートサービスもご提供しています。</p>
+        </p>
+        <p>当ショップのテーマ＆プラグインは、充実した導入マニュアルをご用意しているほか、1ヵ月無料の月額制サポートサービスでホームページが完成するまでをサポート。<br>また、WordPress
+          でのホームページを作るための学習ツールやサポートサービスもご提供しています。</p>
         <p class="home-Intro_More">
-                <a href="/idea" class="home-Intro_Link">コンセプト&amp;サポートを詳しく見る</a>
-            </p>
+          <a href="/idea" class="home-Intro_Link">コンセプト&amp;サポートを詳しく見る</a>
+        </p>
       </div>
     </section>
     <!-- /Intro -->
@@ -146,7 +164,8 @@
     <ul class="home-Knowledge_Bnr">
       <li>
         <a href="/blog">
-          <img src="<?php bloginfo('template_url'); ?>/img/wp.and-bro-brog.png" alt="中級者向け：WordPress Tips by Communitycom " class="img-responsive">
+          <img src="<?php bloginfo('template_url'); ?>/img/wp.and-bro-brog.png"
+            alt="中級者向け：WordPress Tips by Communitycom " class="img-responsive">
           WordPress の活用やサイト制作のノウハウ
         </a>
       </li>
@@ -160,17 +179,17 @@
 
     <!-- カスタム投稿タイプを呼び出し -->
     <?php $args = [
-    'post_type' => 'post', // カスタム投稿名が「gourmet」の場合
-    'posts_per_page' => 3, // 表示する数
-  ];
-  $my_query = new WP_Query($args); ?>
+      'post_type' => 'post', // カスタム投稿名が「gourmet」の場合
+      'posts_per_page' => 3, // 表示する数
+    ];
+    $my_query = new WP_Query($args); ?>
 
     <div class="blog-wrap">
       <div class="home-NewsItems row">
-        <?php if($my_query->have_posts()): while($my_query->have_posts()): $my_query->the_post(); ?>
+        <?php if ($my_query->have_posts()) : while ($my_query->have_posts()) : $my_query->the_post(); ?>
 
         <article class="home-BlogItem col-lg-4">
-          <a href="<?php the_permalink();?>" class="home-BlogItem_Link">
+          <a href="<?php the_permalink(); ?>" class="home-BlogItem_Link">
             <div class="home-BlogItem_Img">
               <?php the_post_thumbnail(); ?>
             </div>
@@ -180,7 +199,8 @@
           <!-- /Entry -->
         </article>
 
-        <?php endwhile; endif; ?>
+        <?php endwhile;
+        endif; ?>
       </div>
     </div>
 
