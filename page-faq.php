@@ -1,11 +1,12 @@
-<?php get_header();?>
+<?php get_header(); ?>
 
 <div id="primary" class="content-area primary">
 
 
   <main id="main" class="site-main container">
 
-    <article class="post-2262 page type-page status-publish ast-article-single" itemtype="https://schema.org/CreativeWork" itemscope="itemscope" id="post-2262">
+    <article class="post-2262 page type-page status-publish ast-article-single"
+      itemtype="https://schema.org/CreativeWork" itemscope="itemscope" id="post-2262">
 
       <header class="entry-header ast-no-thumbnail ast-no-meta">
         <h1 class="entry-title" itemprop="headline">よくある質問</h1>
@@ -20,7 +21,7 @@
         <h2>商品のご購入</h2>
 
         <ul>
-          <li><a href="/shopfaq/">商品のご購入</a></li>
+          <li><a href="/buyfaq/">商品のご購入</a></li>
         </ul>
 
         <h2>有料テーマ</h2>
@@ -66,7 +67,8 @@
               <div class="wp-block-group__inner-container">
                 <h3>商品ご購入後のご質問</h3>
 
-                <p>商品ご購入後のサポートは「<a href="/monthly-support">月額制サポートサービス</a>」のお申し込みをご検討ください。（電話および、お問い合わせフォームでのご質問は受付しておりません。）</p>
+                <p>商品ご購入後のサポートは「<a
+                    href="/monthly-support">月額制サポートサービス</a>」のお申し込みをご検討ください。（電話および、お問い合わせフォームでのご質問は受付しておりません。）</p>
               </div>
             </div>
 
@@ -88,4 +90,4 @@
 
 </div>
 
-<?php get_footer();?>
+<?php get_footer(); ?>

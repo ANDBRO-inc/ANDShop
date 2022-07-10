@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Template part for displaying posts
  *
@@ -9,16 +10,16 @@
 
 ?>
 
-<article class="category-CasesItem col-sm-6 col-lg-4" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<article id="post-<?php the_ID(); ?>" <?php post_class('category-CasesItem col-sm-6 col-lg-4 wh75'); ?>>
   <header class="entry-header">
     <?php
 
     ?>
     <!-- <div class="entry-meta">
       <?php
-				andshop_posted_on();
-				andshop_posted_by();
-				?>
+      andshop_posted_on();
+      andshop_posted_by();
+      ?>
     </div> -->
     <!-- .entry-meta -->
 
@@ -26,30 +27,30 @@
 
   <div class="entry-content">
     <!-- <?php
-		the_content(
-			sprintf(
-				wp_kses(
-					/* translators: %s: Name of current post. Only visible to screen readers */
-					__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'andshop' ),
-					array(
-						'span' => array(
-							'class' => array(),
-						),
-					)
-				),
-				wp_kses_post( get_the_title() )
-			)
-		);
+          the_content(
+            sprintf(
+              wp_kses(
+                /* translators: %s: Name of current post. Only visible to screen readers */
+                __('Continue reading<span class="screen-reader-text"> "%s"</span>', 'andshop'),
+                array(
+                  'span' => array(
+                    'class' => array(),
+                  ),
+                )
+              ),
+              wp_kses_post(get_the_title())
+            )
+          );
 
-		wp_link_pages(
-			array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'andshop' ),
-				'after'  => '</div>',
-			)
-		);
-		?> -->
+          wp_link_pages(
+            array(
+              'before' => '<div class="page-links">' . esc_html__('Pages:', 'andshop'),
+              'after'  => '</div>',
+            )
+          );
+          ?> -->
 
-    <a href="<?php the_permalink();?>" class="category-CasesItem_Link">
+    <a href="<?php the_permalink(); ?>" class="category-CasesItem_Link">
       <div class="category-CasesItem_Img">
         <?php the_post_thumbnail(); ?>
       </div>
@@ -58,7 +59,7 @@
           <li class="category-CasesItem_Tag"><?php the_field('voice_cat'); ?></li>
         </ul>
         <h3 class="category-CasesItem_Title"><?php the_title(); ?></h3>
-        <p><?php the_excerpt();?></p>
+        <p><?php the_excerpt(); ?></p>
       </div>
     </a>
     <!-- /Entry -->

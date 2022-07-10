@@ -10,7 +10,7 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class('wh75'); ?>>
+<article id="post-<?php the_ID(); ?>" <?php post_class(''); ?>>
   <header class="entry-header">
     <?php
 		if (is_singular()) :
@@ -32,9 +32,6 @@
 
   <div class="entry-content">
     <?php
-
-		the_post_thumbnail();
-
 		the_content(
 			sprintf(
 				wp_kses(
