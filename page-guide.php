@@ -42,10 +42,6 @@
           <li>クーポンコードをお持ちの方は「クーポン」欄に入力し、「クーポンを適用」をクリックします。合計金額にてクーポンが適用されているかご確認ください。</li>
         </ol>
 
-        <!-- <figure class="wp-block-image is-resized">
-        <img data-attachment-id="4533" data-permalink="https://communitycom-shop.jp/guide/attachment/fig_-purchase-flow/" data-orig-file="https://i1.wp.com/communitycom-shop.jp/wp-content/uploads/2019/07/fig_-purchase-flow.png?fit=2280%2C1094&amp;ssl=1" data-orig-size="2280,1094" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="fig_-purchase-flow" data-image-description="" data-medium-file="https://i1.wp.com/communitycom-shop.jp/wp-content/uploads/2019/07/fig_-purchase-flow.png?fit=300%2C144&amp;ssl=1" data-large-file="https://i1.wp.com/communitycom-shop.jp/wp-content/uploads/2019/07/fig_-purchase-flow.png?fit=1130%2C542&amp;ssl=1" loading="lazy" src="https://i0.wp.com/www.communitycom.jp/shop/wp-content/uploads/2019/07/fig_-purchase-flow.png?fit=1130%2C542&amp;ssl=1" alt="カート画面" class="wp-image-4533" width="565" height="271" srcset="https://i1.wp.com/communitycom-shop.jp/wp-content/uploads/2019/07/fig_-purchase-flow.png?w=2280&amp;ssl=1 2280w, https://i1.wp.com/communitycom-shop.jp/wp-content/uploads/2019/07/fig_-purchase-flow.png?resize=300%2C144&amp;ssl=1 300w, https://i1.wp.com/communitycom-shop.jp/wp-content/uploads/2019/07/fig_-purchase-flow.png?resize=768%2C369&amp;ssl=1 768w, https://i1.wp.com/communitycom-shop.jp/wp-content/uploads/2019/07/fig_-purchase-flow.png?resize=1130%2C542&amp;ssl=1 1130w, https://i1.wp.com/communitycom-shop.jp/wp-content/uploads/2019/07/fig_-purchase-flow.png?resize=600%2C288&amp;ssl=1 600w, https://i1.wp.com/communitycom-shop.jp/wp-content/uploads/2019/07/fig_-purchase-flow.png?w=2000&amp;ssl=1 2000w" sizes="(max-width: 565px) 100vw, 565px">
-        </figure> -->
-
         <h4>3-1. お支払い方法</h4>
 
         <p>お支払い方法は次の3つをご用意しています。 </p>
@@ -87,10 +83,6 @@
         <h3>4. 商品の納品</h3>
 
         <div class="wp-block-image">
-
-          <!-- <figure class="aligncenter">
-          <img data-attachment-id="4537" data-permalink="https://communitycom-shop.jp/guide/attachment/fig_download-flow/" data-orig-file="https://i1.wp.com/communitycom-shop.jp/wp-content/uploads/2019/07/fig_download-flow.png?fit=1000%2C405&amp;ssl=1" data-orig-size="1000,405" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="fig_download-flow" data-image-description="" data-medium-file="https://i1.wp.com/communitycom-shop.jp/wp-content/uploads/2019/07/fig_download-flow.png?fit=300%2C122&amp;ssl=1" data-large-file="https://i1.wp.com/communitycom-shop.jp/wp-content/uploads/2019/07/fig_download-flow.png?fit=1000%2C405&amp;ssl=1" loading="lazy" width="1000" height="405" src="https://i1.wp.com/communitycom-shop.jp/wp-content/uploads/2019/07/fig_download-flow.png?resize=1000%2C405&amp;ssl=1" alt="マイページのダウンロード画面" class="wp-image-4537" srcset="https://i1.wp.com/communitycom-shop.jp/wp-content/uploads/2019/07/fig_download-flow.png?w=1000&amp;ssl=1 1000w, https://i1.wp.com/communitycom-shop.jp/wp-content/uploads/2019/07/fig_download-flow.png?resize=300%2C122&amp;ssl=1 300w, https://i1.wp.com/communitycom-shop.jp/wp-content/uploads/2019/07/fig_download-flow.png?resize=768%2C311&amp;ssl=1 768w, https://i1.wp.com/communitycom-shop.jp/wp-content/uploads/2019/07/fig_download-flow.png?resize=600%2C243&amp;ssl=1 600w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1">
-          </figure> -->
 
         </div>
 

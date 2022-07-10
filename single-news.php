@@ -13,7 +13,6 @@ get_header();
 
 <div class="single-wrapper">
   <div class="container">
-
     <main id="primary" class="site-main container">
       <!-- カスタム投稿タイプを呼び出し -->
       <?php $args = [
@@ -51,6 +50,5 @@ get_header();
 
   <?php
 	get_footer();
-
 	?>
 </div>

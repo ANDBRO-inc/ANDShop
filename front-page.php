@@ -54,32 +54,69 @@
 
   <div class="home-Products">
     <section class="home-Featured">
-      <h2 class="home-Featured_Title">業種別 WordPressテーマ</h2>
+      <h2 class="home-Featured_Title">WordPressテーマ</h2>
 
       <ul class="home-FeaturedItems row justify-content-start">
+        <?php
+        $args = array(
+          'post_type' => 'product',
+          'product_cat' => 'theme',
+          'posts_per_page' => 3,
+          'orderby' => 'date', // 表示順の基準
+          'order' => 'DESC' // 昇順・降順
+
+        );
+        $featured_query = new WP_Query($args);
+        if ($featured_query->have_posts()) :
+          while ($featured_query->have_posts()) :
+            $featured_query->the_post();
+            $product = get_product($featured_query->post->ID);
+        ?>
         <li class="home-FeaturedItem col-sm-6 col-md-4">
-          <a href="https://wp.and-bro.com/shop/theme-corporate/cmctheme-corporate01" class="home-FeaturedItem_Link">
-            <img src="<?php bloginfo('template_url'); ?>/img/wp.and-bro 画像１.png"
-              alt="WordPressテーマ by Communitycom 企業サイトシリーズ" class="img-responsive">コーポレートサイト向けテーマ<br>¥19,800<small
-              class="woocommerce-price-suffix">(税込)</small>〜¥29,700<small class="woocommerce-price-suffix">(税込)</small>
+          <a href="<?php the_permalink(); ?>" class="home-FeaturedItem_Link">
+            <?php echo get_the_post_thumbnail($post->ID, 'full'); ?><?php the_title(); ?><br><?php echo htmlspecialchars(number_format($product->regular_price)); ?>
           </a>
         </li>
-        <li class="home-FeaturedItem col-sm-6 col-md-4">
-          <a href="https://wp.and-bro.com/shop/cmctheme-blog-affiliate/cmctheme-blog-affiliate"
-            class="home-FeaturedItem_Link">
-            <img src="<?php bloginfo('template_url'); ?>/img/wp.and-bro 画像１.png"
-              alt="WordPressテーマ by Communitycom ブロガー・アフィリエイターシリーズ"
-              class="img-responsive">ブログ・アフィリエイトサイト向けテーマ<br>¥19,800<small class="woocommerce-price-suffix">(税込)</small>
-          </a>
-        </li>
+        <?php
+          endwhile;
+        endif;
+        wp_reset_query();
+        ?>
       </ul>
 
       <!-- /Themes -->
     </section>
 
     <section class="home-Featured">
-      <h2 class="home-Featured_Title">用途別 WordPressテーマ</h2>
-      <h3 class="wp-caption-text">Coming Soon</h3>
+      <h2 class="home-Featured_Title">WordPressプラグイン</h2>
+
+      <ul class="home-FeaturedItems row justify-content-start">
+        <?php
+        $args = array(
+          'post_type' => 'product',
+          'product_cat' => 'plugin',
+          'posts_per_page' => 3,
+          'orderby' => 'date', // 表示順の基準
+          'order' => 'DESC' // 昇順・降順
+
+        );
+        $featured_query = new WP_Query($args);
+        if ($featured_query->have_posts()) :
+          while ($featured_query->have_posts()) :
+            $featured_query->the_post();
+            $product = get_product($featured_query->post->ID);
+        ?>
+        <li class="home-FeaturedItem col-sm-6 col-md-4">
+          <a href="<?php the_permalink(); ?>" class="home-FeaturedItem_Link">
+            <?php echo get_the_post_thumbnail($post->ID, 'full'); ?><?php the_title(); ?><br><?php echo htmlspecialchars(number_format($product->regular_price)); ?>
+          </a>
+        </li>
+        <?php
+          endwhile;
+        endif;
+        wp_reset_query();
+        ?>
+      </ul>
       <!-- /Themes -->
     </section>
     <!-- /Products -->
@@ -164,8 +201,8 @@
     <ul class="home-Knowledge_Bnr">
       <li>
         <a href="/blog">
-          <img src="<?php bloginfo('template_url'); ?>/img/wp.and-bro-brog.png"
-            alt="中級者向け：WordPress Tips by Communitycom " class="img-responsive">
+          <img src="<?php bloginfo('template_url'); ?>/img/wp.and-bro-brog.png" alt="中級者向け：WordPress Tips by andshop "
+            class="img-responsive">
           WordPress の活用やサイト制作のノウハウ
         </a>
       </li>

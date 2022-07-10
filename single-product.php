@@ -91,12 +91,6 @@
                       <h4>ドメイン・サーバーについて</h4>
                       <p>お客様でご用意をお願いいたします</p>
 
-                      <!-- <ul>
-                        <li><a href="https://communitycom-shop.jp/basic/selecting-server/">WordPress超入門：レンタルサーバーを選ぼう</a></li>
-                        <li><a href="https://communitycom-shop.jp/basic/subscribe-server/">WordPress超入門：レンタルサーバーを契約しよう</a>
-                        </li>
-                      </ul> -->
-
                       <h4>原稿・素材のご準備について</h4>
                       <table>
                         <thead>
@@ -174,7 +168,7 @@
                     </tr>
                     <tr>
                       <th>解約</th>
-                      <td><a href="https://communitycom-shop.jp/my-account/">マイページ</a>の「現在のご契約」からご自身でご解約</td>
+                      <td><a href="https://wp.and-bro.com/my-account">マイページ</a>の「現在のご契約」からご自身でご解約</td>
                     </tr>
                     <tr>
                       <th>サポート範囲</th>
@@ -242,7 +236,7 @@
 
               <div class="unit-ProductFeat">
                 <h2 class="unit-ProductFeat_Title">カンタン、だけど高機能</h2>
-                <p class="unit-ProductFeat_Desc">Communitycom のテーマは、「カンタン、だけど高機能」。<br>
+                <p class="unit-ProductFeat_Desc">ANDShopのテーマは、「カンタン、だけど高機能」。<br>
                   自分でオウンドメディアを作りたいけど、あまり時間も手間もかけられない方に、オウンドメディア運用に必要な機能をコンパクトにまとめました。<br>
                   「機能が多すぎてよく分からない！」はありません。</p>
 
@@ -526,76 +520,7 @@
               <ul id="product-notes">
                 <li><small>デモサイトはあくまでホームページの完成イメージです。当テーマのインストールだけではデモサイトは作成できません。</small></li>
                 <li><small>ホームページに使用する文章や画像はお客様ご自身でご用意ください。</small></li>
-                <li><small>WordPress テーマ by Communitycom の<a
-                      href="https://communitycom-shop.jp/shop_faq/paid-themes-0001/">動作推奨環境</a>を事前にご確認ください。</small></li>
               </ul>
-
-              <!-- <h2 class="unit-ProductFeat_Title">テーマ機能一覧</h2>
-            <table class="wp-block-table">
-              <thead>
-                <tr>
-                  <th>項目</th>
-                  <th>機能</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>デザイン・レイアウト</td>
-                  <td>
-
-                    <ul>
-                      <?php the_field('shop_list1'); ?>
-                    </ul>
-
-                  </td>
-                </tr>
-
-                <tr>
-                  <td>トップページ</td>
-                  <td>
-
-                    <ul>
-                      <?php the_field('shop_list2'); ?>
-                    </ul>
-
-                  </td>
-                </tr>
-
-                <tr>
-                  <td>コンテンツ（記事ページ）</td>
-                  <td>
-
-                    <ul>
-                      <?php the_field('shop_list3'); ?>
-                    </ul>
-
-                  </td>
-                </tr>
-
-                <tr>
-                  <td>内部SEO</td>
-                  <td>
-
-                    <ul>
-                      <?php the_field('shop_list4'); ?>
-                    </ul>
-
-                  </td>
-                </tr>
-
-                <tr>
-                  <td>その他</td>
-                  <td>
-
-                    <ul>
-                      <?php the_field('shop_list5'); ?>
-                    </ul>
-
-                  </td>
-                </tr>
-
-              </tbody>
-            </table> -->
 
               <ul class="unit-ProductBtns">
                 <li class="unit-ProductBtns_Item"><a href="<?php the_field('demosite'); ?>" target="_blank"

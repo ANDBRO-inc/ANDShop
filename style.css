@@ -546,12 +546,6 @@ a:visited {
 	/* color: #800080; */
 }
 
-a:hover,
-a:focus,
-a:active {
-	color: #191970;
-}
-
 a:focus {
 	outline: thin dotted;
 }
@@ -656,7 +650,7 @@ textarea {
 .main-navigation {
 	display: block;
 	width: 100%;
-	background-color: #003852 !important;
+	background-color: #5271FF !important;
 	padding-left: 15px;
 }
 
@@ -985,12 +979,16 @@ textarea {
 	float: left;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
+	.wh75 {
+		width: 100% !important;
+	}
 
 	.single #primary,
 	.page-id-82 #primary {
 		width: 100%;
 	}
+
 }
 
 .faq-archive #primary {
@@ -1061,7 +1059,7 @@ textarea {
 	padding-left: 15px;
 	justify-content: space-between;
 	display: flex;
-	border-bottom: 1px solid #003852;
+	/* border-bottom: 1px solid #003852; */
 }
 
 .site-branding {
@@ -1132,7 +1130,7 @@ textarea {
 }
 
 .main-navigation li:hover {
-	background: #326a84;
+	background: #3c54c3;
 }
 
 .main-navigation ul ul a:hover {
@@ -1147,7 +1145,7 @@ textarea {
 /* sidebar */
 
 .wp-block-group__inner-container ul {
-	margin: 0;
+	margin-left: 0;
 }
 
 .wc-block-product-categories ul {
@@ -1158,6 +1156,10 @@ textarea {
 
 .wp-block-latest-posts.wp-block-latest-posts__list {
 	margin: 0;
+}
+
+.wp-block-group__inner-container ul li a {
+	color: #000;
 }
 
 .edit-link {
@@ -1228,7 +1230,7 @@ textarea {
 /* shop-button */
 .cart .unit-ProductBtns {
 	display: inline-flex;
-	width: 90% !important;
+	width: 100% !important;
 }
 
 @media (max-width:768px) {

@@ -216,6 +216,8 @@ body {
 
 .footer-Wrap {
     border-top: 1px solid #d7d7d7;
+    display: inline-block;
+    width: 100%;
 }
 
 .footer-Top {
@@ -404,7 +406,7 @@ body {
     margin-bottom: .5em;
     padding: 0 .5em;
     color: #fff;
-    background-color: #003852
+    background-color: #5271FF;
 }
 
 .home-Hero_Text {
@@ -426,7 +428,7 @@ body {
 .home-Hero_More a:focus,
 .home-Hero_More a:hover {
     color: #fff;
-    background-color: #003852
+    background-color: #5271FF;
 }
 
 .home-News {
@@ -570,7 +572,7 @@ body {
     height: 5px;
     content: "";
     transform: translateX(-50%);
-    background-color: #003852
+    background-color: #5271FF;
 }
 
 .home-Featured_Title small {
@@ -618,13 +620,13 @@ body {
 .home-Cases {
     padding-top: 3em;
     padding-bottom: 3em;
-    background-color: #003852
+    background-color: #f5f5f5;
 }
 
 .home-Cases_Title {
     margin-bottom: .5em;
     text-align: center;
-    color: #fff;
+    color: #000;
     font-size: 28px;
     line-height: 1.3;
     font-weight: 400
@@ -632,7 +634,7 @@ body {
 
 .home-Cases_Desc {
     text-align: center;
-    color: #fff
+    color: #000;
 }
 
 .home-Cases_Items {
@@ -640,14 +642,14 @@ body {
 }
 
 .home-Cases .unit-LinkBox_Link {
-    color: #fff;
-    border-color: #fff;
+    color: #000;
+    border-color: #000;
     background-color: transparent
 }
 
 .home-Cases .unit-LinkBox_Link:hover {
-    color: #333;
-    background-color: #fff
+    color: #fff;
+    background-color: #5271FF;
 }
 
 .home-CasesItem {
@@ -741,7 +743,7 @@ body {
     text-align: center;
     color: #fff;
     border-radius: 50%;
-    background-color: #619b11;
+    background-color: #5271FF;
     font-size: 11px;
     font-size: 3.4375vw
 }
@@ -777,7 +779,7 @@ body {
 
 .home-Intro_Link:focus,
 .home-Intro_Link:hover {
-    background-color: #003852;
+    background-color: #5271FF;
     color: #fff
 }
 
@@ -1054,7 +1056,7 @@ body {
 
 .unit-LinkBox_Link:focus,
 .unit-LinkBox_Link:hover {
-    background-color: #003852;
+    background-color: #5271FF;
     color: #fff
 }
 
@@ -1174,8 +1176,8 @@ body {
     margin-top: 0;
     margin-bottom: 1em;
     padding: .5em;
-    color: #003852;
-    border: 2px solid #003852;
+    color: #5271FF;
+    border: 2px solid #5271FF;
     font-size: 1.125rem
 }
 
@@ -1261,7 +1263,7 @@ body {
 }
 
 .entry-title span {
-    display: block;
+    display: none;
     width: 15em;
     margin-right: auto;
     margin-bottom: 1em;
@@ -1753,7 +1755,7 @@ body.page .entry-content h2 {
     font-size: 20px;
     line-height: 1.5;
     padding: .5em;
-    color: #003852;
+    color: #5271FF;
     margin-top: 2em;
     font-weight: 700;
     background-image: linear-gradient(-45deg, #fff 25%, #f5f5f5 25%, #f5f5f5 50%, #fff 50%, #fff 75%, #f5f5f5 75%, #f5f5f5);
@@ -1769,7 +1771,7 @@ body.page .entry-content h3 {
     padding-top: 0;
     font-size: 18px;
     padding-bottom: .5em;
-    border-bottom: 3px solid #003852;
+    border-bottom: 3px solid #5271FF;
     margin-bottom: 1.5em;
     font-weight: 700;
     margin-top: 2em
@@ -1782,8 +1784,6 @@ body.page .entry-content h4 {
 
 body.page .entry-content table {
     border: 1px solid #999;
-    /* border: none; */
-    border-bottom: none;
 }
 
 body.page .entry-content table ul {
@@ -2007,7 +2007,7 @@ body.page .entry-content .wp-block-image figcaption {
     /* display: flex; */
     flex-direction: row;
     flex-wrap: wrap;
-    max-width: 98%;
+    /* max-width: 98%; */
     justify-content: space-between
 }
 
@@ -2025,7 +2025,7 @@ body.page .entry-content .wp-block-image figcaption {
     background-color: #0095d9;
     text-align: center;
     display: inline-block;
-    font-size: 18px;
+    font-size: 16px;
     padding: .5em 1em;
     width: 100%;
     margin-bottom: .3em
@@ -2033,7 +2033,7 @@ body.page .entry-content .wp-block-image figcaption {
 
 .unit-ProductBtns_Item a:focus,
 .unit-ProductBtns_Item a:hover {
-    opacity: .8
+    opacity: .8;
 }
 
 .unit-ProductBtns_Cart {
@@ -2472,7 +2472,7 @@ body.single-shop_faq .unit-ManualBody h1.entry-title {
     }
 
     .woocommerce div.product form.cart .button.single_add_to_cart_button {
-        width: 90% !important;
+        width: 100% !important;
         font-size: 20px;
     }
 
@@ -3145,5 +3145,11 @@ body.single-shop_faq .unit-ManualBody h1.entry-title {
         visibility: visible;
         max-height: 1000px;
         opacity: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    .wh75 {
+        width: 100% !important;
     }
 }

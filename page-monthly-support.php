@@ -3,7 +3,8 @@
 <div id="primary" class="content-area primary">
   <main id="main" class="site-main container">
 
-    <article class="post-15637 page type-page status-publish ast-article-single" itemtype="https://schema.org/CreativeWork" itemscope="itemscope" id="post-15637">
+    <article class="post-15637 page type-page status-publish ast-article-single"
+      itemtype="https://schema.org/CreativeWork" itemscope="itemscope" id="post-15637">
 
       <header class="entry-header ast-no-thumbnail ast-no-meta">
 
@@ -12,7 +13,7 @@
 
       <div class="entry-content clear" itemprop="text">
 
-        <p><strong>当ショップで商品をご購入された方向け</strong>に、テーマやプラグインの操作・設定方法をフォーラム<!-- <a rel="noreferrer noopener" href="https://forum.communitycom-shop.jp/" target="_blank">フォーラム</a> -->で自由に質問ができる月額・継続課金制サポートサービスをご用意しております。</p>
+        <p><strong>当ショップで商品をご購入された方向け</strong>に、テーマやプラグインの操作・設定方法をフォーラムで自由に質問ができる月額・継続課金制サポートサービスをご用意しております。</p>
 
         <p>有料テーマ・プラグインお買い上げ後でもお申し込みいただけます。<br> ホームページを公開するまでのサポートが必要でしたら、ぜひ月額制サポートサービスをご利用ください。</p>
 
@@ -29,12 +30,17 @@
             <li class="wc-block-grid__product">
               <a href="https://wp.and-bro.com/shop/support/support-b2c" class="wc-block-grid__product-link">
                 <div class="wc-block-grid__product-image">
-                  <img width="700" height="467" src="https://wp.and-bro.com/wp-content/uploads/2021/08/2-2.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy" data-attachment-id="13935">
+                  <img width="700" height="467" src="https://wp.and-bro.com/wp-content/uploads/2021/08/2-2.png"
+                    class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy"
+                    data-attachment-id="13935">
                 </div>
                 <div class="wc-block-grid__product-title">月額制サポートサービス（個人）</div>
               </a>
 
-              <div class="wc-block-grid__product-price price">定額費用 <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">¥</span>2,200</span> <small class="woocommerce-price-suffix">(税込)</small> <span class="subscription-details"> / 1ヶ月<span>（1か月無料）</span></span></div>
+              <div class="wc-block-grid__product-price price">定額費用 <span class="woocommerce-Price-amount amount"><span
+                    class="woocommerce-Price-currencySymbol">¥</span>2,200</span> <small
+                  class="woocommerce-price-suffix">(税込)</small> <span class="subscription-details"> /
+                  1ヶ月<span>（1か月無料）</span></span></div>
 
             </li>
             <input type="hidden" class="wooptpmProductId" data-id="13927">
@@ -60,12 +66,16 @@
             <li class="wc-block-grid__product">
               <a href="https://wp.and-bro.com/shop/support/support-b2b" class="wc-block-grid__product-link">
                 <div class="wc-block-grid__product-image">
-                  <img width="700" height="467" src="https://wp.and-bro.com/wp-content/uploads/2021/08/3-1.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy">
+                  <img width="700" height="467" src="https://wp.and-bro.com/wp-content/uploads/2021/08/3-1.png"
+                    class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy">
                 </div>
                 <div class="wc-block-grid__product-title">月額制サポートサービス（法人）</div>
               </a>
 
-              <div class="wc-block-grid__product-price price">定額費用 <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">¥</span>11,000</span> <small class="woocommerce-price-suffix">(税込)</small> <span class="subscription-details"> / 1ヶ月<span>（1か月無料）</span></span></div>
+              <div class="wc-block-grid__product-price price">定額費用 <span class="woocommerce-Price-amount amount"><span
+                    class="woocommerce-Price-currencySymbol">¥</span>11,000</span> <small
+                  class="woocommerce-price-suffix">(税込)</small> <span class="subscription-details"> /
+                  1ヶ月<span>（1か月無料）</span></span></div>
 
 
             </li>
@@ -185,12 +195,17 @@
           <ul class="wc-block-grid__products">
             <li class="wc-block-grid__product">
               <a href="https://wp.and-bro.com/shop/support/support-b2c" class="wc-block-grid__product-link">
-                <div class="wc-block-grid__product-image"><img width="700" height="467" src="https://wp.and-bro.com/wp-content/uploads/2021/08/2-2.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy">
+                <div class="wc-block-grid__product-image"><img width="700" height="467"
+                    src="https://wp.and-bro.com/wp-content/uploads/2021/08/2-2.png"
+                    class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy">
                 </div>
                 <div class="wc-block-grid__product-title">月額制サポートサービス（個人）</div>
               </a>
 
-              <div class="wc-block-grid__product-price price">定額費用 <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">¥</span>2,200</span> <small class="woocommerce-price-suffix">(税込)</small> <span class="subscription-details"> / 1ヶ月<span>（1か月無料）</span></span></div>
+              <div class="wc-block-grid__product-price price">定額費用 <span class="woocommerce-Price-amount amount"><span
+                    class="woocommerce-Price-currencySymbol">¥</span>2,200</span> <small
+                  class="woocommerce-price-suffix">(税込)</small> <span class="subscription-details"> /
+                  1ヶ月<span>（1か月無料）</span></span></div>
 
             </li>
             <input type="hidden" class="wooptpmProductId" data-id="13927">
@@ -215,12 +230,17 @@
             </script>
             <li class="wc-block-grid__product">
               <a href="https://wp.and-bro.com/shop/support/support-b2b" class="wc-block-grid__product-link">
-                <div class="wc-block-grid__product-image"><img width="700" height="467" src="https://wp.and-bro.com/wp-content/uploads/2021/08/3-1.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy">
+                <div class="wc-block-grid__product-image"><img width="700" height="467"
+                    src="https://wp.and-bro.com/wp-content/uploads/2021/08/3-1.png"
+                    class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy">
                 </div>
                 <div class="wc-block-grid__product-title">月額制サポートサービス（法人）</div>
               </a>
 
-              <div class="wc-block-grid__product-price price">定額費用 <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">¥</span>11,000</span> <small class="woocommerce-price-suffix">(税込)</small> <span class="subscription-details"> / 1ヶ月<span>（1か月無料）</span></span></div>
+              <div class="wc-block-grid__product-price price">定額費用 <span class="woocommerce-Price-amount amount"><span
+                    class="woocommerce-Price-currencySymbol">¥</span>11,000</span> <small
+                  class="woocommerce-price-suffix">(税込)</small> <span class="subscription-details"> /
+                  1ヶ月<span>（1か月無料）</span></span></div>
 
             </li>
             <input type="hidden" class="wooptpmProductId" data-id="13936">

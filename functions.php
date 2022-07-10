@@ -239,11 +239,11 @@ function create_custom_post_type()
 	// 質問投稿
 	register_post_type('shopfaq', [ // 投稿タイプ名の定義
 		'labels' => [
-			'name'          => '商品質問', // 管理画面上で表示する投稿タイプ名
+			'name' => '商品質問', // 管理画面上で表示する投稿タイプ名
 			'singular_name' => 'shopfaq',    // カスタム投稿の識別名
 		],
-		'public'        => true,	// 投稿タイプをpublicにするか
-		'has_archive'   => false,	// アーカイブ機能ON/OFF パーマリンク設定がデフォルト以外の場合に使用
+		'public' => true,	// 投稿タイプをpublicにするか
+		'has_archive' => true,	// アーカイブ機能ON/OFF パーマリンク設定がデフォルト以外の場合に使用
 		'menu_position' => 11,		// 管理画面上での配置場所。「投稿」の下は5、「メディア」の下は10、「固定ページ」の下は20
 		'show_in_rest'  => true,	// 5系から出てきた新エディタ「Gutenberg」を有効にする
 		'hierarchical' => false,		// 階層を持つか ※親記事を指定できるようになる
@@ -409,19 +409,6 @@ function disable_redirect_canonical($redirect_url)
 
 // ボタン追加
 add_action('woocommerce_after_add_to_cart_button', function () {
-	/**
-	 * If you need product data here you can set $product as global
-	 * then you can easily access product data through $product object
-	 *
-	 * global $product;
-	 */
-
-	/**
-	 * You may have to build product customization link automatically
-	 * if the customization link follows same pattern and has product
-	 * id then you can store the customization product id in product meta
-	 * and retrive that meta using $product->get_meta( '_customization_id' );
-	 */
 	$builder_product_link = 'http://builder.alltype.com/';
 ?>
 
@@ -453,21 +440,12 @@ function twpp_change_excerpt_more($more)
 }
 add_filter('excerpt_more', 'twpp_change_excerpt_more');
 
-// Register Custom Navigation Walker
-// require_once('wp_bootstrap_navwalker.php');
-
-// タイトル
-// function bbloomer_add_below_prod_gallery() {
-// $title_shop = the_title();
-// echo $title_shop;
-// }
-
 remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_title', 5);
 
 function woocommerce_add_custom_text_after_product_title()
 {
 
-	// $custom_text = '<span>My Custom Text</span>';
+	$custom_text = '<span>My Custom Text</span>';
 	the_title('<h3 class="product_title entry-title">', $custom_text . '</h3>');
 }
 add_action('woocommerce_single_product_summary', 'woocommerce_add_custom_text_after_product_title', 5);
